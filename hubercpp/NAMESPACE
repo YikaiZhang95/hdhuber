@@ -1,0 +1,5 @@
+useDynLib(hubercpp, .registration = TRUE)
+importFrom(Rcpp, evalCpp)
+export(huber_cd_cpp)
+export(huber_drv_cpp)
+export(huber_path_cpp)

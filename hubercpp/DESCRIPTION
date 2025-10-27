@@ -1,0 +1,14 @@
+Package: hubercpp
+Type: Package
+Title: Huber Regression Utilities (Rcpp Translation)
+Version: 0.1.0
+Authors@R: c(person(given = "Yikai", family = "Zhang", role = c("aut","cre"),
+                    email = "yikai-zhang@uiowa.edu"))
+Description: Minimal Rcpp translation of a Huber gradient routine suitable for coordinate descent.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.6)
+LinkingTo: Rcpp
+Imports: Rcpp
+SystemRequirements: C++11
+RoxygenNote: 7.3.2.9000
