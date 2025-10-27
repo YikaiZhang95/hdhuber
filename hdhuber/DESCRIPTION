@@ -1,0 +1,19 @@
+Package: hdhuber
+Type: Package
+Title: Fast Algorithm for Penalized huber Regression
+Version: 0.1.0
+Date: 2025-09-25
+Authors@R: c(
+  person(given = "Yikai", family = "Zhang", role = c("aut", "cre"), email = "yikai-zhang@uiowa.edu"),
+  person(given = "Qian", family = "Tang", role = "aut", email = "qian-tang@uiowa.edu"),
+  person(given = "Boxiang", family = "Wang", role = "aut", email = "boxiang-wang@uiowa.edu"))
+Maintainer: Yikai Zhang <yikai-zhang@uiowa.edu>
+Description: Implements an efficient algorithm for fitting the entire regularization path of huber regression models.
+License: GPL-2
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: stats, Matrix, methods
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: yes
+RoxygenNote: 7.3.2.9000
